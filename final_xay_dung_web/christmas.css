@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:rgb(127, 221, 255);
+}
+
+.body{
+    background-color: rgb(0, 128, 124);
+    padding-bottom: 30px;
+}
+
+.body-header{
+    display: flex;
+    padding-left: 160px;
+    padding-top: 50px;
+}
+
+.body-header h1{
+    font-size: 60px;
+}
+
+.body-header button{
+    margin-left: 40px;
+    margin-top: 20px;
+    width: 95px;
+    height: 35px;
+    background-color: aquamarine;
+}
+
+.introduction {
+    padding-left: 160px;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.body-menutabs{
+    padding-left: 160px;
+    padding-top: 30px;
+    /* margin-left: 160px;
+    margin-top: 30px; */
+    width: 1100px;
+    padding: 10px;
+    display: flex;
+}
+
+.body-menutabs-block1 {
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: aquamarine;
+    padding: 10px;
+}
+
+.body-menutabs-block1-item{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: navy;
+    color: white;
+}
+
+.body-menutabs-block1-item a{
+    color: white;
+}
+
+.body-menutabs-block2 {
+    width: 185px;
+    height: 35px;
+    margin-left: 15px;
+    margin-top: 30px;
+}
+
+.body-menutabs-block2 button{
+    padding: 5px;
+}
+
+.Sorting-Options{
+    margin-left: 160px;
+    margin-top: 20px;
+    width: 140px;
+    height: 35px;
+    background-color: rgb(127, 144, 255);
+    color: white;
+}
+
+.body-wallpapers{
+    margin-left: 145px;
+    margin-top: 20px;
+}
+
+.body-wallpapers img {
+    margin-left: 15px;
+    border: 5px solid black;
+}
+
+.Load-Page {
+   margin-left: 690px;
+   margin-top: 30px;
+   padding: 15px;
+   width: 160px;
+   height: 50px;
+   font-size: 19px;
+   color: white;
+   background-color: rgb(127, 168, 255);
+}
+
+footer{
+    background-color: black;
+}
+
+footer h2{
+    color: white;
+    margin-left: 15px;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.footer-menutabs{
+    display: flex;
+}
+
+.footer-menutabs button{
+    margin-top: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    background-color: black;
+    color: aquamarine;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}

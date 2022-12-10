@@ -1,0 +1,139 @@
+/*--------------------------------conten-5----------------------------------------------------*/
+.content-5{
+    width: 100%;
+    height: auto;
+    /* background-color:rgb(228, 107, 224); */
+    padding:20px 20% 20px 20%;
+}
+
+
+.background-content-5{
+    background-image: url(../images/tile.jpg);
+    /* background-size: 100%; */
+    background-size:content;
+
+}
+
+.box-content-5{
+    width: 100%;
+    height: auto;
+    /* background-color:red; */
+    display:flex;
+}
+
+
+.box-left{
+    width: 50%;
+    height:auto;
+    /* background-color:yellow; */
+    border-radius:4px;
+    margin-right: 10px;
+}
+
+.box-left ul li{
+    list-style: none;
+}
+
+.box-left ul li a{
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    
+}
+
+.box-left-1 {
+    padding:10px;
+}
+
+.box-left-1{
+    border-radius: 4px 4px 0 0;
+    background-color:rgb(188, 239, 254);
+    
+    font-weight: bold;
+}
+
+.box-left-1 span{
+    color: rgb(26, 70, 120);
+    font-family: sans-serif;
+    font-size:16px
+}
+
+
+
+
+.box-left-5 {
+    border-radius:0 0 4px 4px;
+}
+
+
+.box-leftt{
+    /* margin-top:5px; */
+   padding:15px 10px 15px 10px;
+    background-color:white;
+    border-top-color: rgb(214, 214, 214);
+    border-top-width: 1px;
+    border-top-style:solid;
+}
+
+.box-leftt:hover{
+    background-color:rgb(245, 245, 245)
+}
+
+.box-leftt a{
+    color:rgb(51, 51, 51)
+}
+
+
+
+
+
+
+
+
+
+
+
+.box-right{
+    width: 50%;
+    height:auto;
+    /* background-color:rgb(0, 255, 34) */
+}
+
+.box-right ul li{
+    list-style: none;
+    padding:11.4px;
+}
+
+.box-right-1{
+    border-radius: 4px 4px 0 0;
+    background-color:rgb(188, 239, 254);
+    color: rgb(26, 70, 120);
+    font-family: sans-serif;
+    font-size:16px;
+    font-weight: bold;
+}
+
+
+.box-right ul li{
+    text-decoration: none;
+    font-family: sans-serif;
+    
+    
+}
+
+
+.box-right-6{
+    border-radius:0 0 4px 4px;
+}
+
+.box-rightt{
+    background-color:white;
+    border-top-color: rgb(214, 214, 214);
+    border-top-width: 1px;
+    border-top-style:solid;
+    font-size: 15px;
+}
+
+.box-rightt span{
+    float: right;
+}
